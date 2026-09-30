@@ -1,0 +1,62 @@
+// main: #F9F5F0 — кремовый фон, #1F1E1F — почти чёрный текст, #EA5826 — фирменный оранжевый.
+// font: inter
+:root {
+  --color-bg: #F9F5F0;
+  --color-bg-navbar: #FBF7F1;
+  --color-bg-section: #F8F5EE;
+
+  --color-white: #FFFFFF;
+
+  --color-text: #1F1E1F;
+  --color-text-secondary: #66636A;
+
+  --color-primary: #EA5826;
+  --color-primary-button: #E86745;
+
+  --color-orange-light: #F8E8DE;
+  --color-tag-text: #8B4B2D;
+
+  --color-badge-bg: #FCE8DE;
+
+  --color-green: #789A55;
+
+  --color-border: #E8E2DB;
+
+  --shadow-card: 0 4px 16px rgba(31, 30, 31, 0.08);
+
+
+
+
+   /* Заголовки */
+  --font-size-h1: 2.5rem;      /* 40px — "What's in your fridge?" */
+  --font-size-h2: 1.5rem;      /* 24px — заголовки секций */
+  --font-size-h3: 1.125rem;    /* 18px — "Chicken Rice Bowl" на карточках */
+
+  /* Основной текст */
+  --font-size-body: 1rem;        /* 16px — стандартный текст, инпут */
+  --font-size-body-lg: 1.125rem; /* 18px — подзаголовок в hero ("Turn your ingredients...") */
+
+  /* Мелкий текст */
+  --font-size-sm: 0.875rem;    /* 14px — теги ингредиентов, "Sort by", nav-ссылки */
+  --font-size-xs: 0.8125rem;   /* 13px — "3 of 3 ingredients matched", "Found: 12 recipes" */
+
+  /* Логотип */
+  --font-size-logo: 1.375rem;  /* 22px — "FridgeChef" в шапке */
+
+  /* Насыщенность */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Межстрочный интервал */
+  --line-height-tight: 1.2;    /* заголовки */
+  --line-height-normal: 1.5;   /* обычный текст */
+
+
+
+
+
+
+  --content-padding: 150px;
+   --header-height: 72px;
+}
