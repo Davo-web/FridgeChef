@@ -1,4 +1,4 @@
-import icon from '../../assets/icon/logo.png'
+import icon from '@/assets/icon/logo.png'
 import styles from './Header.module.scss';
 
 const Header = () => {
