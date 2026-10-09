@@ -1,0 +1,14 @@
+.resultsbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-border);
+    padding: 10px;
+    border-radius: var(--border-radius);
+
+    &Text {
+        & span {
+            color: var(--color-primary);
+        }
+    }
+}
