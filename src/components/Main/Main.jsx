@@ -1,4 +1,5 @@
 import Hero from "../Hero/Hero";
+import ListCards from "../ListCards/ListCards";
 import ResultsBar from "../ResultsBar/ResultsBar";
 import styles from './Main.module.scss';
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
         <div className={styles.main}>
             <Hero />
             <ResultsBar />
+            <ListCards />
         </div>
     )
 }
