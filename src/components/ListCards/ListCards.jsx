@@ -1,17 +1,13 @@
+import RecipeCard from '../RecipeCard/RecipeCard';
 import styles from './ListCards.module.scss';
 
 const ListCards = () => {
     return (
         <ul className={styles.listcards}>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
-            <div className={styles.qwe}></div>
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
         </ul>
     )
 }
