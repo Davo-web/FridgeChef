@@ -8,6 +8,13 @@ const ListCards = () => {
             <RecipeCard />
             <RecipeCard />
             <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
+            <RecipeCard />
         </ul>
     )
 }
