@@ -1,6 +1,7 @@
 import styles from './RecipeCard.module.scss';
 import chickenRiceBowlImg from '../../assets/images/chiken_rice_bowl.png';
 
+// h3 заменить на h2 и стили глянуть
 const RecipeCard = () => {
     return (
         <div className={styles.recipeCard}>
